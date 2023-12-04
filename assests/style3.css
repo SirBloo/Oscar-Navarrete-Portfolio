@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(rgb(105, 138, 217), rgb(0, 0, 0));
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px;
+    margin: 0;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin: 0;
+    text-shadow: 1px 1px 2px black;
+}
+
+.textgroup {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.images {
+    text-align: center; 
+    background: linear-gradient(rgb(71, 127, 158), rgb(38, 68, 124));
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.image-group {
+    display: flex; /* Use flexbox to align images in a row */
+    justify-content: center; 
+    margin-bottom: 10px; /* Small margin between pairs */
+}
+
+.group {
+    width: 45%; /* Adjust the width of each image within a pair */
+    margin-right: 2%; /* Margin between images in a pair */
+}
+
+.group2 {
+    width: 45%; /* Adjust the width of each image within a pair */
+    margin-right: 2%; /* Margin between images in a pair */
+}
+
+.pages:last-child {
+    margin-right: 0; /* Remove margin for the last image in a pair */
+}

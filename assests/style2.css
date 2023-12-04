@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(rgb(105, 138, 217), rgb(0, 0, 0));
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px;
+    margin: 0;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px black;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.images {
+    text-align: center; /* Align content to the left */
+    background: linear-gradient(rgb(71, 127, 158), rgb(38, 68, 124));
+    width: 50%; /* Half the screen horizontally */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.image-pair {
+    display: flex; /* Use flexbox to align images in a row */
+    justify-content: center; 
+    margin-bottom: 10px; /* Small margin between pairs */
+}
+
+.pages {
+    width: 45%; /* Adjust the width of each image within a pair */
+    margin-right: 2%; /* Margin between images in a pair */
+}
+
+.pages:last-child {
+    margin-right: 0; /* Remove margin for the last image in a pair */
+}
+
+.bottom-text {
+    text-align: center; /* Align the links within the container */
+}
+
+.leftbutton,
+.rightbutton {
+    display: inline-block; /* Make links inline */
+    margin: 0 150px;
+}
+
+.rightbutton {
+    margin-left: auto; /* Push the "Next" link to the right */
+}
